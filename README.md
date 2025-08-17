@@ -45,8 +45,8 @@ chmod + x byteclipper.sh
 
 Here’s an example of what running the script looks like:
 
-![Example Output 1](https://github.com/Y3llowDuck/RDP-Automation/blob/main/1.png)
+![Example Output 1](https://github.com/Y3llowDuck/byteclipper/blob/main/byteclipper1.png)
 
-![Example Output 2](https://github.com/Y3llowDuck/RDP-Automation/blob/main/2.png)
+![Example Output 2](https://github.com/Y3llowDuck/byteclipper/blob/main/byteclipper2.png)
 
 
