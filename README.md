@@ -45,8 +45,10 @@ chmod + x byteclipper.sh
 
 Here’s an example of what running the script looks like:
 
-![Example Output 1](https://github.com/Y3llowDuck/byteclipper/blob/main/byteclipper1.png)
+![Example Output 1](https://github.com/Y3llowDuck/byteclipper/blob/main/byteclipper1.jpg)
 
-![Example Output 2](https://github.com/Y3llowDuck/byteclipper/blob/main/byteclipper2.png)
+Paste clipboard value to the corresponding line of code:
+
+![Example Output 2](https://github.com/Y3llowDuck/byteclipper/blob/main/byteclipper2.jpg)
 
 
