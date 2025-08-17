@@ -1,9 +1,8 @@
 # ByteClipper
 
-A minimalist Bash script to generate a clean, single-line C# reverse https shell payload using `msfvenom`, and copy it directly to your clipboard.  
-Ideal for red teamers, CTF players, and security researchers who need fast and formatted payloads without manual cleanup.
+A minimalist Bash script to generate a clean, single-line C# reverse https shell payload using `msfvenom`, and copy it directly to your clipboard. Very handy if you need fast and formatted payloads without manual cleanup.
 
-Once executed, the script extracts only the byte array from the generated payload, removes newlines, and stores it to your clipboard — perfect for pasting into .NET loaders or other tools.
+Once executed, the script extracts the shell code , including variable definition and array size, then puts that into your clipboard. I've used a lot for pasting into .NET loaders or Visual Code C# code.
 
 ---
 
