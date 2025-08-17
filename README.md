@@ -2,7 +2,7 @@
 
 A minimalist Bash script to generate a clean, single-line C# reverse https shell payload using `msfvenom`, and copy it directly to your clipboard. Very handy if you need fast and formatted payloads without manual cleanup.
 
-Once executed, the script extracts the shell code , including variable definition and array size, then puts that into your clipboard. I've used a lot for pasting into .NET loaders or Visual Code C# code.
+Once executed, the script extracts the shell code , including variable definition and array size, then puts that into your clipboard. I've used it a lot for pasting into .NET loaders or Visual Code C# code.
 
 ---
 
